@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools" package="bitchat.android.com.bitstore">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES"
+                     tools:ignore="ProtectedPermissions"></uses-permission>
+
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA"
+                     tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"
+                     tools:ignore="ProtectedPermissions" />
+
+
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+                     tools:ignore="ProtectedPermissions" />
+
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+    <application
+            android:allowBackup="true"
+            android:label="@string/app_name"
+            android:icon="@mipmap/ic_bitstore2"
+            android:roundIcon="@mipmap/ic_bitstore2"
+            android:supportsRtl="true"
+            android:name=".app.SkystoreApplication"
+            android:theme="@style/AppTheme"
+            android:networkSecurityConfig="@xml/network_security_config"
+            tools:ignore="AllowBackup,GoogleAppIndexingWarning"
+
+    >
+        <activity
+                android:name=".activitys.SplashActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.FullScreen"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+
+        <activity
+                android:name=".activitys.AppDetailActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/str_app_detail"/>
+
+        <activity
+                android:name=".MainActivity"
+                android:screenOrientation="portrait"
+                android:launchMode="singleTask"
+              />
+        <activity
+                android:name=".activitys.SearchActivity"
+                android:screenOrientation="portrait"
+        />
+        <activity
+                android:name=".activitys.CategaryListActivity"
+                android:screenOrientation="portrait"
+        />
+
+        <activity
+                android:name=".activitys.ShareActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/str_share"
+        />
+
+        <activity
+                android:name=".activitys.UploadManagerActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/str_upload_list"/>
+
+
+        <activity
+                android:name=".activitys.LocalAppActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/str_upload_list_local"
+        />
+
+        <activity
+                android:name=".activitys.UploadActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/str_upload"/>
+
+        <activity
+                android:name=".activitys.JiaoUploadManagerActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/str_jiaoshuilist"
+        />
+
+        <activity
+                android:name=".activitys.JiaoLocalActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/str_jiaoshui_local"
+        />
+
+        <activity
+                android:name=".activitys.JiaoUploadActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/str_jiaoshui_upload"/>
+
+        <activity android:name=".wallet.activity.CMCExchangeDetailActivity"
+                  android:label="@string/str_account_detail"
+                  android:screenOrientation="portrait"
+        />
+
+        <activity android:name=".wallet.activity.ReceiverCmcActivity"
+                  android:label="@string/str_receiver_cmc"
+                  android:screenOrientation="portrait"
+        />
+
+        <activity android:name=".wallet.activity.SendCmcActivity"
+                  android:label="@string/str_out"
+                  android:screenOrientation="portrait"
+        />
+
+        <activity android:name=".wallet.activity.BackupMnemonicActivity"
+                  android:label="@string/str_backup_words"
+                  android:screenOrientation="portrait"
+        />
+        <activity android:name=".wallet.activity.BackupMnemonicVertifyActivity"
+                  android:label="@string/str_backup_words"
+                  android:screenOrientation="portrait"
+        />
+        <activity android:name=".wallet.activity.ImportMnemonicActivity"
+                  android:label="@string/str_import_words"
+                  android:screenOrientation="portrait"
+        />
+
+        <activity
+                android:name=".wallet.activity.ScanQRCodeActivity"
+                android:label="@string/str_scan_qrcode" />
+
+        <activity
+                android:name="cn.wildfire.imshat.wallet.activity.TrustWalletActivity"
+                android:label="@string/str_wallet" />
+
+
+        <service android:name=".wallet.services.WalletService" />
+
+        <provider
+                android:name="androidx.core.content.FileProvider"
+                android:authorities="bitchat.android.com.bitstore.fileprovider"
+                android:grantUriPermissions="true"
+                android:exported="false">
+            <meta-data
+                    android:name="android.support.FILE_PROVIDER_PATHS"
+                    android:resource="@xml/file_paths"/>
+        </provider>
+    </application>
+
+</manifest>

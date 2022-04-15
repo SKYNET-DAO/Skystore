@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="@dimen/dp5"
+  >
+
+
+
+    <com.lqr.recyclerview.LQRRecyclerView
+            android:id="@+id/loadmorelist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:rv_divider_color="@android:color/transparent"
+            app:rv_divider_size="@dimen/dp20"
+
+
+  />
+
+
+</RelativeLayout>

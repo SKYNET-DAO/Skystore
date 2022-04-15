@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+   >
+
+
+
+        <ImageView
+                android:id="@+id/icon"
+                android:layout_width="@dimen/dp30"
+                android:layout_height="@dimen/dp90"
+                android:src="@mipmap/ic_bitstore2"
+                android:scaleType="centerCrop"/>
+
+       <Button  android:layout_width="@dimen/dp30"
+               android:layout_height="@dimen/dp25"
+               android:layout_below="@+id/icon"
+               android:text="Delete"
+               android:background="@color/red6"
+               android:textColor="@color/white"
+       />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,671 @@
+<resources>
+    <string name="app_name_skystore">Skystore</string>
+    <string name="app_name">Skystore</string>
+
+    <string name="home">Recommended</string>
+        
+    <string name="search">Search</string>
+        
+    <string name="categary">Category</string>
+        
+    <string name="paihang">Ranking</string>
+        
+    <string name="str_mine">My</string>
+        
+    <string name="err_regist_fail">Registration failed</string>
+        
+    <string name="str_craate_account_fail">Failed to create an account</string>
+        
+    <string name="str_craate_account_success">Create account successfully</string>
+        
+    <string name="str_tip_backups">Keep your backup files in a safe place, it can help you recover your assets. \ n You
+        can restore your account with a backup file!
+    </string>
+        
+    <string name="str_make_scancode">Generate a QR code</string>
+        
+    <string name="str_code_fail">Failed to generate QR code</string>
+        
+    <string name="str_agin_verify_title">Verify mnemonics</string>
+        
+    <string name="str_agin_verify">Scan the QR code image saved in the previous step to complete the mnemonic
+        verification.
+    </string>
+        
+    <string name="str_ok">Done</string>
+        
+    <string name="layout_dialog_loading">Loading...</string>
+        
+    <string name="str_createwallet_tip">Create your \ nfirst SkyStore account</string>
+        
+    <string name="str_createwallet_scription">A decentralized blockchain AppStore, come and experience it! !!</string>
+        
+    <string name="str_app">App</string>
+        
+    <string name="str_introduce">Introduction</string>
+        
+    <string name="str_cetary">Category</string>
+        
+    <string name="str_upload_app">Upload application</string>
+        
+    <string name="str_select_apk">Please select an apk file</string>
+        
+    <string name="str_prefix_error">The upload format is wrong, please upload the correct format file</string>
+        
+    <string name="str_exit_upload">Are you sure you want to exit the upload?</string>
+        
+    <string name="str_exit_reload">Need to re-upload after exiting</string>
+        
+    <string name="str_exit">Exit</string>
+        
+    <string name="str_cancel">Cancel</string>
+        
+    <string name="str_appversion">Version</string>
+        
+    <string name="str_tip_upload_introduce">Please upload a profile picture</string>
+        
+    <string name="str_tip_upload_introduce_3">Upload at least 3 profile pictures</string>
+        
+    <string name="str_upload_avatar">Please upload an app avatar</string>
+        
+    <string name="str_select_categary">Please select a category</string>
+        
+    <string name="str_upload_apk">Please upload the app</string>
+        
+    <string name="str_app_uploading">App is uploading</string>
+        
+    <string name="str_upload_finish">Upload completed</string>
+        
+    <string name="str_upload_icon_error">Upload app icon error</string>
+        
+    <string name="str_app_upload">App upload</string>
+        
+    <string name="str_max_5">Up to 5 uploads</string>
+        
+    <string name="str_comment">comments</string>
+        
+    <string name="str_tuijian">Recommended</string>
+        
+    <string name="str_app_detail">Application details</string>
+        
+    <string name="str_app_detail1">Details</string>
+        
+    <string name="str_download">Download</string>
+        
+    <string name="str_download_finish">Download completed</string>
+        
+    <string name="str_downloading_title">Downloading, are you sure you want to exit?</string>
+        
+    <string name="str_re_download">Need to download again after exiting</string>
+        
+    <string name="str_server_error">The network is abnormal! !!</string>
+        
+    <string name="str_developer">Under development ...</string>
+        
+    <string name="str_download_count">Download</string>
+        
+    <string name="str_upload_manager">Upload Management</string>
+        
+    <string name="str_record_mnemonic">Please scan the code to complete the mnemonic entry!</string>
+        
+    <string name="str_checking">Checking</string>
+        
+    <string name="str_check_faile">Check failed, incorrect mnemonic</string>
+        
+    <string name="str_scan_faile">Unable to recognize QR code</string>
+        
+    <string name="str_appointment">reservation</string>
+        
+    <string name="str_must">Required</string>
+        
+    <string name="str_frist">Starter</string>
+        
+    <string name="str_feature">Thematic</string>
+        
+    <string name="str_upload">upload</string>
+        
+    <string name="str_package">gift package</string>
+        
+    <string name="str_message">messages</string>
+        
+    <string name="str_wph">Vipshop</string>
+        
+    <string name="str_tn">Tuniu</string>
+        
+    <string name="str_wzry">King of Glory</string>
+        
+    <string name="str_qqcard">QQ Speeding</string>
+        
+    <string name="str_cjgame">Eating Chicken Games</string>
+        
+    <string name="str_zdonline">Battlefield Online</string>
+        
+    <string name="str_lol">League of Legends</string>
+        
+    <string name="str_qqstore">Tencent app treasure</string>
+        
+    <string name="str_hwstore">Huawei Supermarket</string>
+
+        
+    <string name="str_language">Language settings</string>
+        
+    <string name="str_hot_search">Hot search</string>
+        
+    <string name="str_history_search">History search</string>
+        
+    <string name="str_share">Share</string>
+        
+    <string name="str_all_categary">All categories</string>
+        
+    <string name="lock">Lock position</string>
+        
+    <string name="str_appname">application name</string>
+        
+    <string name="str_commit">Submit</string>
+        
+    <string name="str_select_language">Select language</string>
+        
+    <string name="str_home_show">Home name display</string>
+        
+    <string name="str_add">Add</string>
+        
+    <string name="str_english">English</string>
+        
+    <string name="str_zh">Chinese</string>
+        
+    <string name="str_input_content">input name</string>
+        
+    <string name="str_input_appname">Please enter the home app display name</string>
+        
+    <string name="str_controy">Chinese:</string>
+        
+    <string name="str_content_not_null">The input cannot be empty</string>
+
+
+    <string name="str_download_number">Download:</string>
+        
+    <string name="str_content_is_letter">Please enter English letters</string>
+        
+    <string name="str_max_2">Add up to 2</string>
+        
+    <string name="str_app_drawdown">Unlisted</string>
+        
+    <string name="str_app_modify">Edit</string>
+        
+    <string name="BackUps">Backup account</string>
+        
+    <string name="str_Backups_words">Backup mnemonics</string>
+        
+    <string name="str_img_gallery">Generate a QR code and save it in the album, use it for verification in the next
+        step
+    </string>
+        
+    <string name="str_next">Next step</string>
+        
+    <string name="str_select_img">Select image</string>
+        
+    <string name="str_app_introduce">Application introduction</string>
+        
+    <string name="str_simple_introduce">A brief introduction</string>
+        
+    <string name="str_tip_introduce">Please enter an introduction!</string>
+        
+    <string name="str_create_account">Create an account</string>
+        
+    <string name="str_create_now">Create now</string>
+        
+    <string name="str_reset_now">Resume now</string>
+
+        
+    <string name="str_BackUps">Backup account</string>
+        
+    <string name="str_title_account">My identity</string>
+        
+    <string name="str_backup_account">Backup identity</string>
+        
+    <string name="str_exit_account">Sign out</string>
+        
+    <string name="str_address">address</string>
+        
+    <string name="str_nickname">nickname</string>
+        
+    <string name="str_avatar">avatar</string>
+        
+    <string name="str_input_pwd">Please enter a password</string>
+        
+    <string name="str_check_pwd">Check your password to delete your account !!</string>
+        
+    <string name="str_pwd_error">Password error</string>
+        
+    <string name="str_reset_account">Restore account</string>
+
+        
+    <string name="str_pwd">Password</string>
+        
+    <string name="str_input_nickname">Please enter your nickname</string>
+        
+    <string name="str_8_6_hint">Please enter 8-16 letters and numbers</string>
+        
+    <string name="str_8_6_hint_again">Please enter 8-16 characters plus numbers again</string>
+        
+    <string name="str_reset_tip">Import recovery wallet with mnemonics and new password can be set</string>
+        
+    <string name="str_input_mnemonic">Please enter a mnemonic</string>
+        
+    <string name="str_pwd_not_same">Passwords do not match</string>
+        
+    <string name="str_zan_success">Like success</string>
+        
+    <string name="str_input_comment">Please enter a comment</string>
+        
+    <string name="str_comment_go">Go to comment</string>
+        
+    <string name="str_check_version">Version check</string>
+
+        
+    <string name="str_categary">Category</string>
+        
+    <string name="str_hot">Hot</string>
+        
+    <string name="str_install">Install</string>
+        
+    <string name="str_check_newversion">version update</string>
+        
+    <string name="str_check_newversion_tip">A new version was detected, please update!</string>
+        
+    <string name="str_update_now">Update now</string>
+        
+    <string name="str_updating">Updating</string>
+        
+    <string name="str_app_pkg">Installation package</string>
+
+
+    <string name="str_xf">Renewal</string>
+        
+    <string name="str_redpkg">Red envelope</string>
+        
+    <string name="str_pay">Pay</string>
+        
+    <string name="str_create">Create</string>
+        
+    <string name="str_groupmember_num">Group number</string>
+        
+    <string name="str_point2point_group">Create a peer-to-peer encrypted group chat</string>
+        
+    <string name="str_receive_cmc">Receive payments</string>
+        
+    <string name="str_input_cmc_address">Please enter a cmc address</string>
+        
+    <string name="str_invalid_address">Invalid CMC address</string>
+        
+    <string name="str_exchange_send">Send</string>
+        
+    <string name="str_input_coincount">Please enter the number of coins</string>
+        
+    <string name="str_balance_wallet">Wallet balance</string>
+        
+    <string name="str_exchange_detail">Transaction details</string>
+        
+    <string name="str_transform">Transfer</string>
+        
+    <string name="str_input_cmc_count">Please enter the number of cmc</string>
+        
+    <string name="str_select_unvalid_address">Invalid address</string>
+        
+    <string name="str_net_error">Network exception</string>
+        
+    <string name="str_msg">message</string>
+        
+    <string name="str_contacts">Contacts</string>
+        
+    <string name="str_gallery">Albums</string>
+        
+    <string name="str_add_friend">Add</string>
+        
+    <string name="str_asset">assets</string>
+        
+    <string name="str_settings">Settings</string>
+        
+    <string name="str_language_settings">Language Settings</string>
+        
+    <string name="str_usehelp">Help Center</string>
+        
+    <string name="str_problem">Frequently Asked Questions</string>
+
+
+        
+    <string name="str_feedback">Feedback</string>
+        
+    <string name="str_about">About</string>
+        
+    <string name="str_helper">Help Center</string>
+        
+    <string name="str_please_input_remar_self">Please add your own note name first</string>
+        
+    <string name="str_add_remark_success">Successfully added notes</string>
+        
+    <string name="str_input_remark">Please enter a note</string>
+        
+    <string name="str_add_remark">Edit note</string>
+        
+    <string name="str_scan_qrcode_add_friend">Scan QR code to add friends</string>
+        
+    <string name="str_identify">Business card</string>
+        
+    <string name="str_home_zxing_text">Put a QR code / bar code into the box and it will scan automatically</string>
+
+
+    <string name="str_third_app">Third-party applications</string>
+        
+    <string name="str_in">Collecting</string>
+        
+    <string name="str_accept_receive">I want to receive coins</string>
+        
+    <string name="str_total_assets">Total assets</string>
+        
+    <string name="str_receive">Revenue</string>
+        
+    <string name="str_output">Expenditure</string>
+        
+    <string name="str_already_setting_pwd">Password has been set</string>
+        
+    <string name="str_myserver">My Services</string>
+        
+    <string name="str_exchange_fail">Transaction failed</string>
+        
+    <string name="str_exchange_money">amount</string>
+        
+    <string name="str_receiver_address">Payment address</string>
+        
+    <string name="str_exchange_id">Transaction number</string>
+        
+    <string name="str_exchange_more">More information</string>
+        
+    <string name="str_modify">Modify</string>
+        
+    <string name="str_modify_new_pwd">Modify password</string>
+        
+    <string name="str_drawdown_app">All app-related information will be deleted after delisting !!</string>
+        
+    <string name="str_drawdown_success">Removed successfully</string>
+        
+    <string name="str_drawdown_fail">Unlisting failed</string>
+
+        
+    <string name="str_save">Save</string>
+        
+    <string name="str_scan_share">Scan code sharing</string>
+        
+    <string name="str_not_appinfo">Unable to get App package information</string>
+
+        
+    <string name="str_need_float_prom">Requires permissions such as floating window for normal use</string>
+        
+    <string name="str_auth_fail">Authorization failed</string>
+        
+    <string name="str_installing">Installing</string>
+        
+    <string name="str_open_app">Open</string>
+
+        
+    <string name="str_action_share">Share</string>
+        
+    <string name="str_app_manager">Application</string>
+        
+    <string name="str_scancode_share">Scan code sharing</string>
+        
+    <string name="str_upload_list">Upload application list</string>
+        
+    <string name="str_upload_list_local">Local application</string>
+        
+    <string name="str_confirm_upload">Are you sure you want to upload the app?</string>
+        
+    <string name="str_sure_drawdown">Are you sure you want to take down</string>
+        
+    <string name="str_version">version</string>
+        
+    <string name="str_publish_success">Congratulations, the posting was successful !!</string>
+        
+    <string name="str_uploading">Uploading ...</string>
+        
+    <string name="str_copy">Copy</string>
+        
+    <string name="str_copy_success">Copy successfully</string>
+        
+    <string name="str_modify_content">Fix known issues and optimize user experience</string>
+        
+    <string name="str_new_version">New version !!</string>
+        
+    <string name="str_wait_moment">Speak later</string>
+
+
+        
+    <string name="str_jiaoshui">Glue</string>
+        
+    <string name="str_jiaoshui_upload">Post glue</string>
+        
+    <string name="str_jiaoshui_local">Local glue package</string>
+        
+    <string name="str_confirm_upload_jiao">Are you sure you want to upload this glue program?</string>
+        
+    <string name="str_jiaoshui_icon">Design a glue icon</string>
+        
+    <string name="str_sel_categary">Please select a glue category</string>
+        
+    <string name="str_5_limit_intruduce">The introduction is less than 5 characters</string>
+        
+    <string name="str_add_intruduce_info">Please add glue introduction information</string>
+        
+    <string name="str_jiaoshui_version_info">Please add glue version information</string>
+        
+    <string name="str_upload_jiaoshui_icon">Please upload the glue icon</string>
+        
+    <string name="str_info_infect_base">Incomplete glue information</string>
+        
+    <string name="str_drawdown_tip">Successful removal, block delay, please refresh the list manually! !!</string>
+        
+    <string name="str_del_jiaoshui_tip">Successfully deleted the glue program, please do not delete it repeatedly,
+        refresh the list manually! !!
+    </string>
+
+
+        
+    <string name="str_del">Delete</string>
+        
+    <string name="str_jiaoshuilist">Glue list</string>
+        
+    <string name="str_upload_jiaoshui_before">Please upload the glue package first</string>
+        
+    <string name="str_update">Update</string>
+
+    <string name="str_input_cmc_count_proble">Incorrect amount entered</string>
+        
+    <string name="str_balance_not_enough">Insufficient balance</string>
+        
+    <string name="str_not_max">The amount was entered incorrectly and must be less than the balance</string>
+        
+    <string name="str_send_success">The transfer was successful</string>
+        
+    <string name="str_wallet">Wallet</string>
+        
+    <string name="str_zd">Bills</string>
+        
+    <string name="str_asyning">(Syncing ...)</string>
+        
+    <string name="str_account">Bill details</string>
+        
+    <string name="str_account_detail">Bill Details</string>
+        
+    <string name="str_exchange_history">Transaction history</string>
+        
+    <string name="str_save_success">Saved successfully</string>
+        
+    <string name="str_save_not_support">This type is not supported yet</string>
+        
+    <string name="str_scan_qrcode_pay">Scan and transfer to me</string>
+        
+    <string name="str_scan_qrcode">Scan it</string>
+        
+    <string name="str_save_img">Save image</string>
+        
+    <string name="str_receiver_cmc">Receive payments</string>
+        
+    <string name="str_out">Transfer</string>
+        
+    <string name="str_comfirm">OK</string>
+
+        
+    <string name="str_address_empty">Address cannot be empty</string>
+        
+    <string name="str_send_fail">Transfer failed</string>
+        
+    <string name="str_coin_isempter">The transfer amount cannot be empty</string>
+        
+    <string name="str_send_comforim">Are you sure you want to transfer money to the other party?</string>
+        
+    <string name="home_zxing_text">Scan QR code</string>
+        
+    <string name="str_scan_fail">Code scan failed</string>
+        
+    <string name="str_backup_words">Backup Wallet</string>
+        
+    <string name="str_import_words">Import mnemonics</string>
+        
+    <string name="str_private">Privacy Policy</string>
+        
+    <string name="str_exchange_success">The transfer was successful</string>
+        
+    <string name="str_amount">Amount:</string>
+        
+    <string name="str_gas">Handling fee:</string>
+        
+    <string name="str_shou_address">Payment address:</string>
+        
+    <string name="str_more">more</string>
+        
+    <string name="str_exchange_number">Transaction number:</string>
+        
+    <string name="str_pay_address">Payment address:</string>
+        
+    <string name="str_detail_more">More details</string>
+        
+    <string name="str_mnemicon_tip">Write your wallet mnemonic</string>
+        
+    <string name="str_mnemicon_tip_safe">The mnemonic is used to restore the wallet, copy it to paper and store it in a
+        safe place.
+    </string>
+        
+    <string name="str_mnemion_input">Enter mnemonics, separated by spaces</string>
+        
+    <string name="str_mnemion_sure">Confirm your wallet mnemonic</string>
+        
+    <string name="str_mnemion_sort">Click on the mnemonics in order to determine if your backup is correct.</string>
+        
+    <string name="str_exchange_receiver_coin">I want to receive money</string>
+        
+    <string name="str_wallet_balance">Wallet balance</string>
+        
+    <string name="str_account_all">Total assets</string>
+        
+    <string name="str_transform_coin">Transfer</string>
+        
+    <string name="str_receiver_coin">Receive payments</string>
+        
+    <string name="str_reset_wallet">Import wallet</string>
+        
+    <string name="str_clear">Empty</string>
+        
+    <string name="str_reset_error">Restore wallet exception, please try again</string>
+        
+    <string name="str_mne_error">The mnemonic is wrong, please double check each word! !</string>
+        
+    <string name="str_backup_success">Mnemonic backup succeeded</string>
+        
+    <string name="str_backup_fail">The mnemonic backup failed in the wrong order! !!</string>
+
+        
+    <string name="str_restart_app_now">Restart now</string>
+        
+    <string name="str_restart_app">Importing the wallet requires manual restart of the application. Are you sure you
+        want to restart?
+    </string>
+        
+    <string name="str_transform_coforim">Are you sure you want to transfer?</string>
+        
+    <string name="str_album">Albums</string>
+        
+    <string name="str_not_find">Unrecognized</string>
+        
+    <string name="str_net">Network</string>
+        
+    <string name="str_backup">Back up now</string>
+        
+    <string name="str_iknow">I know</string>
+        
+    <string name="str_zgyd">China Mobile</string>
+        
+    <string name="str_zjdx">China Telecom</string>
+        
+    <string name="str_zglt">China Unicom</string>
+        
+    <string name="str_select">Selection</string>
+        
+    <string name="str_selcet_img">Select an image</string>
+        
+    <string name="str_update_progress">Update progress</string>
+        
+    <string name="str_drawdown_delay">Successful removal, block delay, please refresh the list manually! !!</string>
+        
+    <string name="str_bigequel_100">Wallet balance must be greater than 2 cmc</string>
+        
+    <string name="str_no_data">No data</string>
+        
+    <string name="str_js_app_info_commit">Submit glue application information !!</string>
+        
+    <string name="str_js_app_info_commit_true">Are you sure you want to submit the app to SkyStore?</string>
+    <string name="str_big_update">Skystore app upgrade!</string>
+
+    <string name="str_screen">screenshot</string>
+        
+    <string name="str_intruduce">Introduction</string>
+        
+    <string name="string_simple_intruduce">A brief introduction ...</string>
+        
+    <string name="str_publish">Publish</string>
+
+    <string name="str_upload_app_info">Submit application information !!</string>
+        
+    <string name="str_upload_2_store">Determine to submit application to SkyStore</string>
+    <string name="str_need_input_version">You must enter a version number ...</string>
+    <string name="str_not_complete">Incomplete application basics</string>
+        
+    <string name="str_upload_screen_img">Please upload a screenshot</string>
+        
+    <string name="str_add_intruduce">Please add application profile information</string>
+        
+    <string name="str_lent_not5">The introduction is less than 5 characters</string>
+        
+    <string name="str_selcet_categary">Please select an application category</string>
+
+
+        
+    <string name="str_continue">Continue</string>
+        
+    <string name="str_download_error">Error</string>
+        
+    <string name="str_download_wait">waiting</string>
+        
+    <string name="str_app_del_reinstall">The app installation package has been deleted, please download and install
+        again
+    </string>
+        
+    <string name="str_pause">Pause</string>
+    <string name="str_receiver_monkey_address"> receive address </string>
+        
+    <string name="str_pay_monkey_address"> Sending address </string>
+
+    <string name="str_share2_friend">Share</string>
+    <string name="str_share_tip">"Skystore The world's largest application market, easier to download :"</string>
+
+
+</resources>

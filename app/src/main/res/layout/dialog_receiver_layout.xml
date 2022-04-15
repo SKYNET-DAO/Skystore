@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingDefaultResource"
+        android:background="@color/color_12161c"
+>
+
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp25"
+                    android:layout_marginRight="@dimen/dp25"
+                    android:layout_marginTop="@dimen/dp15"
+
+
+    >
+
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="CMC Wallet address"
+                  android:textColor="@color/color_848e9b"
+                  android:layout_centerInParent="true"
+                  android:layout_alignParentLeft="true"
+                  android:textSize="@dimen/dp15"
+        />
+
+        <Button android:layout_width="@dimen/dp55"
+                android:layout_height="@dimen/dp25"
+                android:text="Copy"
+                android:background="@color/color_212833"
+                android:textColor="@color/color_848e9b"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/dp10"
+                android:id="@+id/copy"
+
+
+        />
+
+    </RelativeLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+
+                  android:background="@color/color_12161c"
+    >
+
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:id="@+id/tip"
+                  android:text="USDT wallet address"
+                  android:textColor="@color/white"
+                  android:textSize="@dimen/dp15"
+                  android:visibility="gone"
+        />
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:id="@+id/address"
+                  android:text="0xC2b6F4b3aC9B10cc6A6839dD288eeD0E0cfE2d43"
+                  android:textColor="@color/white"
+                  android:textSize="@dimen/dp16"
+                  android:singleLine="true"
+                  android:layout_marginTop="@dimen/dp5"
+        />
+
+        <View android:layout_width="match_parent"
+              android:layout_height="@dimen/dp0.5"
+              android:background="@color/color_848e9b"
+              android:layout_marginLeft="@dimen/dp25"
+              android:layout_marginRight="@dimen/dp25"
+              android:layout_marginTop="@dimen/dp15"
+        />
+
+        <ImageView android:layout_width="@dimen/dp170"
+                   android:layout_height="@dimen/dp170"
+                   android:id="@+id/qrcode"
+                   android:layout_gravity="center"
+                   android:src="@mipmap/receiver_qrcode"
+                   android:padding="@dimen/dp15"
+                   android:background="@color/white"
+                   android:layout_marginTop="@dimen/dp15"
+
+
+        />
+
+
+
+        <com.lqr.optionitemview.OptionItemView
+                android:layout_width="@dimen/dp125"
+                android:layout_height="@dimen/dp35"
+                app:left_text="Save QR"
+                app:left_text_color="@color/color_848e9b"
+                app:left_src="@mipmap/ic_download1"
+                app:left_image_margin_left="@dimen/dp15"
+                android:background="@color/color_212833"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/dp18"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp15"
+                android:id="@+id/save"
+
+
+        />
+
+
+
+    </LinearLayout>
+
+
+    <View android:layout_width="match_parent"
+          android:layout_height="@dimen/dp0.5"
+          android:background="@color/color_848e9b"
+          android:layout_marginLeft="@dimen/dp25"
+          android:layout_marginRight="@dimen/dp25"
+          android:layout_marginTop="@dimen/dp25"
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="@dimen/dp25"
+              android:layout_marginRight="@dimen/dp25"
+              android:text="This address on valid CMC\n *Don't send other coin than cmc， any other coin send to this address will lost."
+              android:textColor="@color/color_848e9b"
+              android:layout_marginTop="@dimen/dp5"
+              android:padding="@dimen/dp5"
+    />
+
+
+</LinearLayout>

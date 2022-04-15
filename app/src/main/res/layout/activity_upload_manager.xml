@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <include layout="@layout/toolbar" />
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:id="@+id/smartrefreshlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            app:srlDisableContentWhenRefresh="true"
+            app:srlDisableContentWhenLoading="true"
+            app:srlEnableLoadMore="false"
+            app:srlEnableRefresh="true"
+            android:layout_below="@+id/appbar"
+
+    >
+
+
+
+    <com.lqr.recyclerview.LQRRecyclerView
+        android:id="@+id/applist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar"
+        app:rv_divider_color="@android:color/transparent"
+        app:rv_divider_size="@dimen/dp10"
+        />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatbutton"
+        android:layout_width="@dimen/dp65"
+        android:layout_height="@dimen/dp65"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp15"
+        android:layout_marginBottom="@dimen/dp15"
+        android:src="@drawable/icon_publish"
+        android:scaleType="centerCrop"
+        app:fabSize="normal"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              android:orientation="vertical"
+   >
+
+    <include layout="@layout/toolbar" />
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:id="@+id/smartrefreshlayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/white"
+            app:srlDisableContentWhenRefresh="true"
+            app:srlDisableContentWhenLoading="true"
+            app:srlEnableLoadMore="false"
+            app:srlEnableRefresh="true"
+            android:layout_below="@+id/appbar"
+            android:layout_weight="1"
+    >
+
+
+
+    <com.lqr.recyclerview.LQRRecyclerView
+        android:id="@+id/applist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar"
+        app:rv_divider_color="@android:color/transparent"
+        app:rv_divider_size="@dimen/dp10"
+        />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <Button
+            android:id="@+id/tv_publish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shap_round_solid_textview_red"
+            android:gravity="center"
+            android:text="@string/str_publish"
+            android:textColor="@color/white"
+            android:layout_marginRight="@dimen/dp25"
+            android:layout_marginLeft="@dimen/dp25"
+            android:textSize="@dimen/dp16"
+            android:layout_marginBottom="@dimen/dp15"
+    />
+
+
+</LinearLayout>

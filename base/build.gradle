@@ -1,0 +1,156 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 28
+
+
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath true
+            }
+        }
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    //common
+    api 'androidx.appcompat:appcompat:1.1.0'
+    api 'androidx.core:core-ktx:1.1.0'
+    api 'com.google.android.material:material:1.0.0'
+    api 'androidx.constraintlayout:constraintlayout:1.1.3'
+    api 'androidx.multidex:multidex:2.0.1'
+    api 'androidx.annotation:annotation:1.1.0'
+    api 'androidx.core:core:1.1.0'
+    api 'androidx.fragment:fragment:1.1.0'
+    api 'androidx.recyclerview:recyclerview:1.0.0'
+    api 'androidx.cardview:cardview:1.0.0'
+    api 'androidx.coordinatorlayout:coordinatorlayout:1.0.0'
+    api 'androidx.viewpager:viewpager:1.0.0'
+    api 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+
+    //compile 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+    def lifecycle_version = '2.0.0-beta01'
+    api "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    api 'com.squareup.okhttp3:okhttp:3.12.3'
+    api 'com.squareup.okhttp3:logging-interceptor:3.12.3'
+    api 'com.google.code.gson:gson:2.8.2'
+
+    //retrofit
+    api 'com.squareup.retrofit2:retrofit:2.4.0'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    api 'com.squareup.retrofit2:converter-gson:2.4.0'
+    api 'com.squareup.retrofit2:converter-scalars:2.4.0'
+
+    //rxjava
+    api 'com.lzy.net:okrx2:2.0.2'
+    api 'com.lzy.net:okserver:2.0.5'
+    api 'io.reactivex.rxjava2:rxjava:2.1.14'
+    api 'io.reactivex.rxjava2:rxandroid:2.0.2'
+
+    //rxlifecycle
+    api 'com.trello.rxlifecycle2:rxlifecycle:2.2.1'
+    api 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.1'
+    api 'com.trello.rxlifecycle2:rxlifecycle-components-preference:2.2.1'
+    api 'com.readystatesoftware.chuck:library:1.0.4'
+    api 'com.orhanobut:logger:2.1.1'
+
+    //dialog
+    api 'com.afollestad.material-dialogs:core:0.9.6.0'
+
+    //adapter for lqr
+    api 'com.lqr.adapter:library:1.0.2'
+
+    //tab bar
+    api 'devlight.io:navigationtabbar:1.2.5'
+
+    //img-text
+    api 'cn.dxjia:imagetextbutton:1.0.0'
+
+    //optionitemview
+    api 'com.lqr.optionitemview:library:1.0.7'
+
+    //avatar
+    api 'com.github.open-android:RoundedImageView:v1.0.0'
+
+    //tabs
+    api  'io.github.h07000223:flycoTabLayout:3.0.0'
+
+    //qrcode
+
+    //qrcode
+
+    //    api 'cn.bingoogolapple:bga-qrcode-zxing:1.3.6'
+
+    //rxtool
+    api 'com.github.tamsiree.RxTool:RxKit:2.3.9'
+
+    //indecator
+    api 'com.romandanylyk:pageindicatorview:1.0.0@aar'
+
+    //    //timepicther
+
+    //    api 'com.github.guting50:WheelView:1.0.6'
+
+
+    debugImplementation 'com.didichuxing.doraemonkit:doraemonkit:1.1.5'
+    releaseImplementation 'com.didichuxing.doraemonkit:doraemonkit-no-op:1.1.5'
+    api 'com.lqr.adapter:library:1.0.2'
+    api 'com.lqr.recyclerview:library:1.0.2'
+    api 'com.github.bumptech.glide:glide:4.8.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+    kapt 'com.github.bumptech.glide:compiler:4.8.0'
+    api 'jp.wasabeef:glide-transformations:3.3.0'
+
+
+    api 'de.hdodenhof:circleimageview:2.2.0'
+
+    //pin
+
+    //    api ('com.github.omadahealth:lollipin:2.1.0@aar') {
+
+    //        transitive = true
+
+    //    }
+    api files('libs/litepal-2.0.0.jar')
+
+    api   'com.jakewharton.rxbinding2:rxbinding-support-v4:2.1.1'
+    api    'com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.1.1'
+    api 'com.hyman:flowlayout-lib:1.1.2'
+    api 'com.airbnb.android:lottie:3.3.1'
+
+//    api 'com.github.Jimmuy:ImagePicker:v1.0.2'
+
+
+
+    api 'cn.bingoogolapple:bga-qrcodecore:1.1.7@aar'
+    api 'cn.bingoogolapple:bga-zxing:1.1.7@aar'
+    api 'com.google.zxing:core:3.3.3'
+    api 'com.king.zxing:zxing-lite:1.1.1'
+
+    api 'xiao.free.horizontalrefreshlayout:lib:v0.1.2'
+
+}

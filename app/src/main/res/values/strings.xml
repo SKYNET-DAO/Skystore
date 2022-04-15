@@ -1,0 +1,358 @@
+<resources>
+    <string name="app_name_skystore">Skystore</string>
+    <string name="app_name">Skystore</string>
+    <string name="home">推荐</string>
+    <string name="search">搜索</string>
+    <string name="categary">分类</string>
+    <string name="paihang">排行</string>
+    <string name="str_mine">我的</string>
+    <string name="err_regist_fail">注册失败</string>
+    <string name="str_craate_account_fail">创建账号失败</string>
+    <string name="str_craate_account_success">创建账号成功</string>
+    <string name="str_tip_backups">请妥善保管备份的文件，它可以帮您找回资产。\n 可用备份文件恢复账号！</string>
+    <string name="str_make_scancode">生成二维码</string>
+    <string name="str_code_fail">二维码生成失败</string>
+    <string name="str_agin_verify_title">校验助记词</string>
+    <string name="str_agin_verify">扫描上一步保存的二维码图片，完成助记词验证。</string>
+    <string name="str_ok">完成</string>
+    <string name="layout_dialog_loading">加载中</string>
+    <string name="str_createwallet_tip">创建你的\n第一个SkyStore账号</string>
+    <string name="str_createwallet_scription">一个去中心化区块链AppStore，快来体验一下吧！！</string>
+    <string name="str_app">应用</string>
+    <string name="str_introduce">简介</string>
+    <string name="str_cetary">分类</string>
+    <string name="str_upload_app">上传应用</string>
+    <string name="str_select_apk">请选择apk文件</string>
+    <string name="str_prefix_error">上传格式错误,请上传正确格式文件</string>
+    <string name="str_exit_upload">确定退出上传？</string>
+    <string name="str_exit_reload">退出上传后需要重新上传</string>
+    <string name="str_exit">退出</string>
+    <string name="str_cancel">取消</string>
+    <string name="str_appversion">版本号</string>
+    <string name="str_tip_upload_introduce">请上传简介图</string>
+    <string name="str_tip_upload_introduce_3">至少上传3张简介图</string>
+    <string name="str_upload_avatar">请上传应用头像</string>
+    <string name="str_select_categary">请选择分类</string>
+    <string name="str_upload_apk">请上传应用</string>
+    <string name="str_app_uploading">应用正在上传</string>
+    <string name="str_upload_finish">上传完成</string>
+    <string name="str_upload_icon_error">上传应用图标错误</string>
+    <string name="str_app_upload">应用上传</string>
+    <string name="str_max_5">最多上传5条</string>
+    <string name="str_comment">评论</string>
+    <string name="str_tuijian">推荐</string>
+    <string name="str_app_detail">应用详情</string>
+    <string name="str_app_detail1">详情</string>
+    <string name="str_download">下载</string>
+    <string name="str_download_finish">下载完成</string>
+    <string name="str_downloading_title">正在下载，确定要退出吗？</string>
+    <string name="str_re_download">退出后需要重新下载</string>
+    <string name="str_server_error">网络异常啦！！</string>
+    <string name="str_developer">开发中...</string>
+    <string name="str_download_count">下载</string>
+    <string name="str_upload_manager">上传管理</string>
+    <string name="str_record_mnemonic">请先扫码完成助记词录入！</string>
+    <string name="str_checking">校验中</string>
+    <string name="str_check_faile">校验失败，助记词不正确</string>
+    <string name="str_scan_faile">无法识别二维码</string>
+    <string name="str_appointment">预约</string>
+    <string name="str_must">必备</string>
+    <string name="str_frist">首发</string>
+    <string name="str_feature">专题</string>
+    <string name="str_upload">上传</string>
+    <string name="str_package">礼包</string>
+    <string name="str_message">消息</string>
+    <string name="str_wph">唯品会</string>
+    <string name="str_tn">途牛</string>
+    <string name="str_wzry">王者荣耀</string>
+    <string name="str_qqcard">QQ飞车</string>
+    <string name="str_cjgame">吃鸡游戏</string>
+    <string name="str_zdonline">战地online</string>
+    <string name="str_lol">英雄联盟</string>
+    <string name="str_qqstore">腾讯应用宝</string>
+    <string name="str_hwstore">华为超市</string>
+
+    <string name="str_language" >语言设置</string>
+    <string name="str_hot_search">热门搜索</string>
+    <string name="str_history_search" >历史搜索</string>
+    <string name="str_share">分享</string>
+    <string name="str_all_categary">所有分类</string>
+    <string name="lock">锁仓</string>
+    <string name="str_appname">应用名</string>
+    <string name="str_commit">提交</string>
+    <string name="str_select_language">选择语种</string>
+    <string name="str_home_show">首页名称展示</string>
+    <string name="str_add">添加</string>
+    <string name="str_english">英文</string>
+    <string name="str_zh">中文</string>
+    <string name="str_input_content">输入名称</string>
+    <string name="str_input_appname">请输入首页app显示名称</string>
+    <string name="str_controy">中文:</string>
+    <string name="str_content_not_null">输入内容不能为空</string>
+
+
+    <string name="str_download_number">下载 :</string>
+    <string name="str_content_is_letter">请输入英文字母</string>
+    <string name="str_max_2">最多添加2条</string>
+    <string name="str_app_drawdown">下架</string>
+    <string name="str_app_modify">编辑</string>
+    <string name="BackUps">备份账号</string>
+    <string name="str_Backups_words">备份助记词</string>
+    <string name="str_img_gallery">生成二维码保存在相册，下一步验证使用</string>
+    <string name="str_next">下一步</string>
+    <string name="str_select_img">选择图片</string>
+    <string name="str_app_introduce">应用介绍</string>
+    <string name="str_simple_introduce">简单介绍</string>
+    <string name="str_tip_introduce">请输入介绍语！</string>
+    <string name="str_create_account">创建账号</string>
+    <string name="str_create_now">立即创建</string>
+    <string name="str_reset_now">立即恢复</string>
+
+    <string name="str_BackUps">备份账号</string>
+    <string name="str_title_account">我的身份</string>
+    <string name="str_backup_account">备份身份</string>
+    <string name="str_exit_account">退出身份</string>
+    <string name="str_address">地址</string>
+    <string name="str_nickname">昵称</string>
+    <string name="str_avatar">头像</string>
+    <string name="str_input_pwd">请输入密码</string>
+    <string name="str_check_pwd">校验密码即可删除账号!!</string>
+    <string name="str_pwd_error">密码错误</string>
+    <string name="str_reset_account">恢复账号</string>
+
+    <string name="str_pwd">密码</string>
+    <string name="str_input_nickname">请输入您的昵称</string>
+    <string name="str_8_6_hint">请输入8-16位字母加数字</string>
+    <string name="str_8_6_hint_again">请再次输入8-16位字母加数字</string>
+    <string name="str_reset_tip">使用助记词导入恢复钱包并且可以设置新密码</string>
+    <string name="str_input_mnemonic">请输入助记词</string>
+    <string name="str_pwd_not_same">密码不一致</string>
+    <string name="str_zan_success">点赞成功</string>
+    <string name="str_input_comment">请输入评论</string>
+    <string name="str_comment_go">去评论</string>
+    <string name="str_check_version" >版本检测</string>
+
+    <string name="str_categary" >分类</string>
+    <string name="str_hot">热门</string>
+    <string name="str_install">安装</string>
+    <string name="str_check_newversion">版本更新</string>
+    <string name="str_check_newversion_tip">检测到一个新的版本，请更新！</string>
+    <string name="str_update_now">立即更新</string>
+    <string name="str_updating">更新中</string>
+    <string name="str_app_pkg">安装包</string>
+
+
+
+
+    <!--cmc str-->
+    <string name="str_xf">续费</string>
+    <string name="str_redpkg">红包</string>
+    <string name="str_pay">支付</string>
+    <string name="str_create">创建</string>
+    <string name="str_groupmember_num">群人数</string>
+    <string name="str_point2point_group">创建点对点加密群聊</string>
+    <string name="str_receive_cmc">收款</string>
+    <string name="str_input_cmc_address">请输cmc地址</string>
+    <string name="str_invalid_address">无效的CMC地址</string>
+    <string name="str_exchange_send">发送</string>
+    <string name="str_input_coincount">请输入币的数量</string>
+    <string name="str_balance_wallet">钱包余额</string>
+    <string name="str_exchange_detail">交易详情</string>
+    <string name="str_transform">转账</string>
+    <string name="str_input_cmc_count">请输cmc数量</string>
+    <string name="str_select_unvalid_address">无效地址</string>
+    <string name="str_net_error">网络异常</string>
+    <string name="str_msg">消息</string>
+    <string name="str_contacts">通讯录</string>
+    <string name="str_gallery">相册</string>
+    <string name="str_add_friend">添加</string>
+    <string name="str_asset">资产</string>
+    <string name="str_settings">设置</string>
+    <string name="str_language_settings">语言设置</string>
+    <string name="str_usehelp">帮助中心</string>
+    <string name="str_problem">常见问题</string>
+
+
+    <string name="str_feedback">Feedback</string>
+    <string name="str_about">关于</string>
+    <string name="str_helper">帮助中心</string>
+    <string name="str_please_input_remar_self">请先去添加自己的备注名称</string>
+    <string name="str_add_remark_success">添加备注成功</string>
+    <string name="str_input_remark">请输入备注</string>
+    <string name="str_add_remark">修改备注</string>
+    <string name="str_scan_qrcode_add_friend">扫描二维码，添加好友</string>
+    <string name="str_identify">名片</string>
+    <string name="str_home_zxing_text">将二维码/条码放入框内，即可自动扫描</string>
+
+
+
+    <!--new str-->
+    <string name="str_third_app">第三方应用</string>
+    <string name="str_in">收币</string>
+    <string name="str_accept_receive">我要收币</string>
+    <string name="str_total_assets">总资产</string>
+    <string name="str_receive">收入</string>
+    <string name="str_output">支出</string>
+    <string name="str_already_setting_pwd">已经设置过密码</string>
+    <string name="str_myserver">我的服务</string>
+    <string name="str_exchange_fail">交易失败</string>
+    <string name="str_exchange_money">金额</string>
+    <string name="str_receiver_address">收款地址</string>
+    <string name="str_exchange_id">交易号</string>
+    <string name="str_exchange_more">更多信息</string>
+    <string name="str_modify">修改</string>
+    <string name="str_modify_new_pwd">修改密码</string>
+    <string name="str_drawdown_app">下架后将删除所有app相关信息!!</string>
+    <string name="str_drawdown_success">下架成功</string>
+    <string name="str_drawdown_fail">下架失败</string>
+
+    <!--new str-->
+    <string name="str_save">保存</string>
+    <string name="str_scan_share">扫码分享</string>
+    <string name="str_not_appinfo">无法获取App包信息</string>
+
+    <string name="str_need_float_prom">需要悬浮窗等权限才能正常使用</string>
+    <string name="str_auth_fail">授权失败</string>
+    <string name="str_installing">安装中</string>
+    <string name="str_open_app">打开</string>
+
+    <string name="str_action_share">分享</string>
+    <string name="str_app_manager">应用</string>
+    <string name="str_scancode_share">扫码分享</string>
+    <string name="str_upload_list">上传应用列表</string>
+    <string name="str_upload_list_local">本地应用</string>
+    <string name="str_confirm_upload">确认要上传该应用？</string>
+    <string name="str_sure_drawdown">确定要下架</string>
+    <string name="str_version">版本</string>
+    <string name="str_publish_success">恭喜,发布成功!!</string>
+    <string name="str_uploading">上传中...</string>
+    <string name="str_copy">复制</string>
+    <string name="str_copy_success">复制成功</string>
+    <string name="str_modify_content">修复已知问题，优化用户体验</string>
+    <string name="str_new_version">新版本!!</string>
+    <string name="str_wait_moment">稍后再说</string>
+
+
+
+    <string name="str_jiaoshui">胶水</string>
+    <string name="str_jiaoshui_upload">发布胶水</string>
+    <string name="str_jiaoshui_local">本地胶水程序包</string>
+    <string name="str_confirm_upload_jiao">确认要上传该胶水程序？</string>
+    <string name="str_jiaoshui_icon">设计个胶水图标</string>
+    <string name="str_sel_categary">请选择胶水分类</string>
+    <string name="str_5_limit_intruduce">简介不够5个字符</string>
+    <string name="str_add_intruduce_info">请添加胶水简介信息</string>
+    <string name="str_jiaoshui_version_info">请添加胶水版本信息</string>
+    <string name="str_upload_jiaoshui_icon">请上传胶水图标</string>
+    <string name="str_info_infect_base">胶水基本信息不完善</string>
+    <string name="str_drawdown_tip">下架成功,区块有延迟,请手动刷新列表！！</string>
+    <string name="str_del_jiaoshui_tip">删除胶水程序成功,请勿重复删除，手动刷新列表！！</string>
+
+
+    <string name="str_del">删除</string>
+    <string name="str_jiaoshuilist">胶水列表</string>
+    <string name="str_upload_jiaoshui_before">请先上传胶水包</string>
+    <string name="str_update">更新</string>
+
+
+
+
+    <string name="str_input_cmc_count_proble">金额输入错误</string>
+    <string name="str_balance_not_enough">余额不足</string>
+    <string name="str_not_max">金额输入错误，必须小于余额</string>
+    <string name="str_send_success">转账成功</string>
+    <string name="str_wallet">钱包</string>
+    <string name="str_zd">账单</string>
+    <string name="str_asyning">(同步中...)</string>
+    <string name="str_account">账单明细</string>
+    <string name="str_account_detail">账单详情</string>
+    <string name="str_exchange_history">交易记录</string>
+    <string name="str_save_success">保存成功</string>
+    <string name="str_save_not_support">暂不支持该类型</string>
+    <string name="str_scan_qrcode_pay">扫一扫，向我转账</string>
+    <string name="str_scan_qrcode">扫一扫</string>
+    <string name="str_save_img">保存图片</string>
+    <string name="str_receiver_cmc">收款</string>
+    <string name="str_out">转账</string>
+    <string name="str_comfirm">确定</string>
+
+    <string name="str_address_empty">地址不能为空</string>
+    <string name="str_send_fail">转账失败</string>
+    <string name="str_coin_isempter">转账金额不能为空</string>
+    <string name="str_send_comforim">确定要转账给对方？</string>
+    <string name="home_zxing_text">Scan QR code</string>
+    <string name="str_scan_fail">扫码失败</string>
+    <string name="str_backup_words">备份钱包</string>
+    <string name="str_import_words">导入助记词</string>
+    <string name="str_private">隐私政策</string>
+    <string name="str_exchange_success">转账成功</string>
+    <string name="str_amount">金额:</string>
+    <string name="str_gas">手续费:</string>
+    <string name="str_shou_address">收款地址:</string>
+    <string name="str_more">更多</string>
+    <string name="str_exchange_number">交易号：</string>
+    <string name="str_pay_address">付款地址:</string>
+    <string name="str_detail_more">更详细信息</string>
+    <string name="str_mnemicon_tip">抄写下你的钱包助记词</string>
+    <string name="str_mnemicon_tip_safe">助记词用于恢复钱包， 将它抄写到纸上、并存放在安全的地方。</string>
+    <string name="str_mnemion_input">输入助记词，按空格分隔</string>
+    <string name="str_mnemion_sure">确认你的钱包助记词</string>
+    <string name="str_mnemion_sort">按顺序点击助记词，以确定你的备份是否正确。</string>
+    <string name="str_exchange_receiver_coin">我要收款</string>
+    <string name="str_wallet_balance">钱包余额</string>
+    <string name="str_account_all">总资产</string>
+    <string name="str_transform_coin">转账</string>
+    <string name="str_receiver_coin">收款</string>
+    <string name="str_reset_wallet">导入钱包</string>
+    <string name="str_clear">清空</string>
+    <string name="str_reset_error">恢复钱包异常，请重新尝试</string>
+    <string name="str_mne_error">助记词有误，请仔细检查每个词！!</string>
+    <string name="str_backup_success">助记词备份成功</string>
+    <string name="str_backup_fail">助记词备份失败，顺序有误！！</string>
+
+    <string name="str_restart_app_now">立即重启</string>
+    <string name="str_restart_app">导入钱包需要手动重启应用，确定要重启？</string>
+    <string name="str_transform_coforim">确定要转账?</string>
+    <string name="str_album">相册</string>
+    <string name="str_not_find">无法识别</string>
+    <string name="str_net">网络</string>
+    <string name="str_backup">立即备份</string>
+    <string name="str_iknow">知道了</string>
+    <string name="str_zgyd">中国移动</string>
+    <string name="str_zjdx">中国电信</string>
+    <string name="str_zglt">中国联通</string>
+    <string name="str_select">选择</string>
+    <string name="str_selcet_img">选择图片</string>
+    <string name="str_update_progress">更新进度</string>
+    <string name="str_drawdown_delay">下架成功,区块有延迟,请手动刷新列表！！</string>
+    <string name="str_bigequel_100">钱包余额需大于2 cmc</string>
+    <string name="str_no_data">没有数据</string>
+    <string name="str_js_app_info_commit">提交胶水应用信息!!</string>
+    <string name="str_js_app_info_commit_true">确定要提交应用到SkyStore?</string>
+    <string name="str_big_update">Skystore 应用大升级！</string>
+    <string name="str_screen">应用截图(不是本app截图,可能上架失败)</string>
+    <string name="str_intruduce">简介</string>
+    <string name="string_simple_intruduce">简单介绍一下...</string>
+    <string name="str_publish">发布</string>
+    <string name="str_upload_app_info">提交应用信息!!</string>
+    <string name="str_upload_2_store">确定要提交应用到SkyStore</string>
+    <string name="str_need_input_version">必须输入版本号...</string>
+    <string name="str_not_complete">应用基本信息不完善</string>
+    <string name="str_upload_screen_img">请上传截图</string>
+    <string name="str_add_intruduce">请添加应用简介信息</string>
+    <string name="str_lent_not5">简介不够5个字符</string>
+    <string name="str_selcet_categary">请选择应用分类</string>
+    <string name="str_continue">继续</string>
+    <string name="str_download_error">出错</string>
+    <string name="str_download_wait">等待</string>
+    <string name="str_app_del_reinstall">app安装包已被删除，请重新下载并安装</string>
+    <string name="str_pause">暂停</string>
+    <string name="str_receiver_monkey_address">接收地址</string>
+    <string name="str_pay_monkey_address">发送地址</string>
+
+
+    <string name="str_share2_friend">一键分享</string>
+    <string name="str_share_tip">Skystore全球最大应用市场,下载更方便:</string>
+
+
+</resources>

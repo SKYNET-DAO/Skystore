@@ -1,0 +1,101 @@
+<resources>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:dropDownWidth">@dimen/dp80</item>
+
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:labelTextSize">@dimen/dp10</item>
+        
+        <!--<item name="android:windowAnimationStyle">@style/activityAnimation</item>-->
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorBackgroundFloating">@color/white</item>
+
+
+
+    </style>
+    <style name="AppTheme.Appbar">
+        <item name="actionMenuTextColor">@color/menu_text_color</item>
+        <item name="overlapAnchor">false</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+
+    <style name="OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:popupBackground">@color/white</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="actionMenuTextColor">@color/menu_text_color</item>
+        <item name="colorControlNormal">@color/white</item>
+
+
+
+    </style>
+
+
+    
+    <style name="OptionItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp50</item>
+        <item name="android:background">#00000000</item>
+    </style>
+
+
+
+
+    <declare-styleable name="HelperTextInputLayout">
+        <attr name="helperText" format="string"/>
+        <attr name="helperTextColor" format="color|reference"/>
+    </declare-styleable>
+
+    <style name="HelperTextAppearance" parent="TextAppearance.Design.Error">
+        <item name="android:textColor">@color/color_secondary_text</item>
+    </style>
+
+
+
+    <style name="PopWDInAndOutStyle">
+        <item name="android:windowEnterAnimation">@anim/pop_in</item>
+        <item name="android:windowExitAnimation">@anim/pop_out</item>
+    </style>
+
+    <declare-styleable name="WheelView">
+        <attr format="color" name="awv_centerTextColor"/> 
+        <attr format="color" name="awv_outerTextColor"/> 
+        <attr format="dimension" name="awv_centerTextSize"/>
+        <attr format="dimension" name="awv_outerTextSize"/>
+        <attr format="color" name="awv_dividerTextColor"/>
+        <attr format="integer" name="awv_itemsVisibleCount"/>
+        <attr format="boolean" name="awv_isLoop"/>
+    </declare-styleable>
+
+    
+    <style name="line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/color_dcdcdc</item>
+        <item name="android:layout_marginLeft">@dimen/dp15</item>
+        <item name="android:layout_marginRight">@dimen/dp15</item>
+        <item name="android:layout_marginTop">@dimen/dp5</item>
+
+
+    </style>
+
+    
+    <style name="AppTheme.FullScreen">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+
+</resources>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        tools:context=".MainActivity"
+        android:background="@color/white"
+>
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+        >
+
+
+
+
+
+
+
+    <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp5"
+                    android:background="@color/white"
+
+
+    >
+
+
+        <ImageView
+                android:id="@+id/icon"
+                android:layout_width="@dimen/dp60"
+                android:layout_height="@dimen/dp60"
+                android:layout_marginLeft="@dimen/dp5"
+                android:layout_centerInParent="true"
+                android:layout_alignParentLeft="true"
+
+        />
+
+        <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-----"
+                android:layout_toRightOf="@+id/icon"
+                android:layout_marginLeft="@dimen/dp10"
+                android:textSize="@dimen/dp15"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="@dimen/dp12"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:ems="12"/>
+
+        <TextView
+                android:id="@+id/subtitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@+id/icon"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_below="@+id/title"
+                android:layout_marginTop="@dimen/dp5"
+                android:textSize="@dimen/dp12"
+                android:textColor="@color/color_444444"
+
+
+
+        />
+
+        <TextView
+                android:id="@+id/subtitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14 thousand downloads  3.7 score  53.8MB"
+                android:layout_toRightOf="@+id/icon"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_below="@+id/subtitle2"
+                android:layout_marginTop="@dimen/dp5"
+                android:textSize="@dimen/dp10"
+                android:visibility="gone"
+        />
+
+        <bitchat.android.com.bitstore.widget.ProgressButton
+                android:id="@+id/download"
+                android:layout_width="@dimen/dp90"
+                android:layout_height="@dimen/dp30"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/dp12"
+                app:cornerRadius="20dp"
+                android:text="@string/str_upload"
+                app:progressBackColor="@color/white"
+                app:progressColor="@color/color_C2DCF1"
+                app:buttonColor="@color/color_ededed"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:stateListAnimator="@null"
+                android:layout_marginRight="@dimen/dp5"
+                android:padding="@dimen/dp5"
+                android:visibility="gone"
+
+        />
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="@dimen/dp45"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="@dimen/dp5"
+                  android:background="@color/white"
+                  android:gravity="center_vertical"
+    >
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/str_jiaoshui_icon"
+                  android:layout_marginLeft="@dimen/dp15"
+                  android:textSize="@dimen/dp15"
+
+        />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text=" *"
+                  android:textColor="@color/red6"
+        />
+
+
+
+    </LinearLayout>
+
+            <bitchat.android.com.bitstore.widget.NoScrollGridView
+                    android:id="@+id/gridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_gad"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:numColumns="3"
+                    android:scrollbars="none"
+                    android:verticalSpacing="6dp" />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="@dimen/dp45"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="@dimen/dp5"
+                  android:background="@color/white"
+                  android:gravity="center_vertical"
+    >
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/str_introduce"
+                  android:layout_marginLeft="@dimen/dp15"
+                  android:textSize="@dimen/dp15"
+
+        />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text=" *"
+                  android:textColor="@color/red6"
+        />
+
+
+
+    </LinearLayout>
+
+
+            <EditText
+                    android:id="@+id/et_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ntb"
+                    android:background="@color/day_backgroup_color"
+                    android:gravity="left|top"
+                    android:hint="@string/str_simple_introduce"
+                    android:maxLines="6"
+                    android:minLines="5"
+                    android:padding="15dp"
+                    android:textColor="@color/day_one_text_color"
+                    android:textSize="16sp" />
+
+            <View
+                    android:id="@+id/view_gad"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/et_content" />
+
+
+
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="@dimen/dp45"
+                          android:orientation="horizontal"
+                          android:layout_marginTop="@dimen/dp5"
+                          android:background="@color/white"
+                          android:gravity="center_vertical"
+            >
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/str_version"
+                          android:layout_marginLeft="@dimen/dp15"
+                          android:textSize="@dimen/dp15"
+
+                />
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text=" *"
+                          android:textColor="@color/red6"
+                />
+
+
+            </LinearLayout>
+
+
+            <EditText
+                    android:id="@+id/et_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ntb"
+                    android:background="@color/day_backgroup_color"
+                    android:gravity="left|top"
+                    android:hint="@string/str_need_input_version"
+                    android:singleLine="true"
+                    android:padding="15dp"
+                    android:inputType="number"
+                    android:textColor="@color/day_one_text_color"
+                    android:textSize="16sp" />
+
+
+
+            <com.lqr.optionitemview.OptionItemView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp45"
+                    app:left_text="@string/str_categary"
+                    app:right_src="@mipmap/ic_right_back"
+                    android:background="@drawable/bg_selector_btn"
+                    android:clickable="true"
+                    android:id="@+id/appcategary"
+                    app:left_text_size="@dimen/dp15"
+                    app:right_text_size="@dimen/dp15"
+            />
+
+
+
+
+
+
+
+
+
+            <Button
+                    android:id="@+id/tv_commit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shap_round_solid_textview_red"
+                    android:gravity="center"
+                    android:text="@string/str_publish"
+                    android:textColor="@color/white"
+                    android:layout_marginRight="@dimen/dp25"
+                    android:layout_marginLeft="@dimen/dp25"
+                    android:layout_marginTop="@dimen/dp25"
+                    android:textSize="@dimen/dp16" />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+      >
+
+
+    <RelativeLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                    android:background="@color/white"
+                    android:layout_marginTop="@dimen/dp15"
+    >
+
+        <ImageView android:layout_width="@dimen/dp70"
+                   android:layout_height="@dimen/dp70"
+                   android:scaleType="centerCrop"
+                   android:src="@mipmap/ic_avatar"
+                   android:layout_marginLeft="@dimen/dp15"
+                   android:id="@+id/icon"
+        />
+
+        <TextView
+                android:id="@+id/nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp16"
+                android:layout_toRightOf="@+id/icon"
+                android:layout_marginLeft="@dimen/dp15"
+                android:layout_centerInParent="true"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:ems="16"
+              />
+
+        <TextView
+                android:id="@+id/version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="styles"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp16"
+                android:padding="@dimen/dp5"
+                android:layout_toRightOf="@+id/icon"
+                android:layout_below="@+id/nickname"
+                android:layout_marginLeft="@dimen/dp15"
+                android:visibility="gone"
+              />
+
+    </RelativeLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp10"
+        android:elevation="@dimen/dp0"
+        app:cardCornerRadius="@dimen/dp5"
+        app:cardElevation="@dimen/dp0"
+        android:visibility="gone"
+    >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/main_bg"
+            android:padding="@dimen/dp5"
+
+
+        >
+
+
+            <ImageView android:layout_width="@dimen/dp60"
+                       android:layout_height="@dimen/dp60"
+                       android:scaleType="centerCrop"
+                       android:layout_alignParentRight="true"
+                       android:layout_centerInParent="true"
+                       android:layout_marginRight="@dimen/dp15"
+                       android:src="@mipmap/ic_avatar"
+            />
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/dp15"
+                  android:layout_marginLeft="@dimen/dp15"
+                  android:layout_marginRight="@dimen/dp15"
+                  android:orientation="vertical"
+    >
+
+
+
+
+
+        <com.lqr.optionitemview.OptionItemView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp60"
+                app:right_src="@mipmap/ic_right_back"
+                app:left_text="@string/str_wallet"
+                android:background="@drawable/bg_selector_btn"
+                android:clickable="true"
+                android:id="@+id/wallet"
+
+        />
+
+        <com.lqr.optionitemview.OptionItemView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp60"
+                app:left_text="@string/str_app_manager"
+                app:right_src="@mipmap/ic_right_back"
+                android:background="@drawable/bg_selector_btn"
+                android:clickable="true"
+                android:id="@+id/applist"
+
+
+        />
+
+        <com.lqr.optionitemview.OptionItemView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp60"
+                app:left_text="@string/str_jiaoshui"
+                app:right_src="@mipmap/ic_right_back"
+                android:background="@drawable/bg_selector_btn"
+                android:clickable="true"
+                android:id="@+id/plugaction"
+
+
+        />
+
+
+        <com.lqr.optionitemview.OptionItemView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp60"
+                app:left_text="@string/str_share"
+                android:clickable="true"
+                app:right_src="@mipmap/ic_right_back"
+                android:background="@drawable/bg_selector_btn"
+                android:id="@+id/share"
+        />
+
+        <com.lqr.optionitemview.OptionItemView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp60"
+                app:left_text="@string/str_appversion"
+                android:clickable="true"
+                android:background="@drawable/bg_selector_btn"
+                android:id="@+id/version1"
+        />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:textColor="@color/red6"
+        android:text="@string/str_exit"
+        android:gravity="center"
+        android:clickable="true"
+        android:textSize="@dimen/dp15"
+        android:layout_marginTop="@dimen/dp15"
+        android:layout_marginLeft="@dimen/dp15"
+        android:layout_marginRight="@dimen/dp15"
+        android:background="@drawable/bg_selector_btn"
+        style="?android:attr/borderlessButtonStyle"
+        android:visibility="gone"
+
+    />
+
+
+
+</LinearLayout>

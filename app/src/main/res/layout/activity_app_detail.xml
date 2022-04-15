@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+   >
+
+    <LinearLayout
+        android:id="@+id/headlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_below="@+id/toolbar"
+        android:paddingRight="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp10"
+        >
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp5"
+            >
+            <ProgressBar
+                android:id="@+id/app_progressBar"
+                android:layout_width="@dimen/dp45"
+                android:layout_height="@dimen/dp45"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/appicon"
+                android:layout_width="@dimen/dp75"
+                android:layout_height="@dimen/dp75"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="@dimen/dp10"
+
+                />
+
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="@dimen/dp160"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/appname"
+                style="@style/detail_card_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:text="----"
+                android:layout_marginLeft="@dimen/dp10"
+
+                android:maxLines="2"
+                />
+
+            <TextView
+                android:id="@+id/installcount"
+                style="@style/detail_card_introduce_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp10"
+                android:text="----"
+                android:layout_marginTop="8.0dip" />
+
+
+
+            <RatingBar
+                android:id="@+id/like"
+                android:layout_width="wrap_content"
+                android:layout_height="12.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="2.0dip"
+                android:indeterminateDrawable="@drawable/ratingbar_list"
+                android:indeterminateOnly="false"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:progressDrawable="@drawable/ratingbar_list"
+                android:rating="3"
+                android:layout_marginLeft="@dimen/dp10"
+                android:visibility="gone"
+
+
+                />
+
+            <RelativeLayout
+                android:id="@+id/detail_head_label_layout_linearlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.0dip">
+
+                <LinearLayout
+                    android:id="@+id/detail_head_label_icon_layout_linearlayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center|left"
+                    android:orientation="horizontal" >
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/detail_head_lable_folding_textview"
+                    android:layout_width="18.0dip"
+                    android:layout_height="18.0dip"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/detail_head_label_icon_layout_linearlayout"
+                    android:background="@drawable/ic_public_arrow_down"
+                    android:visibility="gone"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <com.flyco.tablayout.SegmentTabLayout
+        android:id="@+id/segmenttablayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp30"
+        android:layout_below="@+id/headlayout"
+        android:layout_marginTop="@dimen/dp20"
+        app:tl_bar_stroke_color="@color/colorPrimary"
+        app:tl_textSelectColor="@color/colorPrimary"
+        app:tl_textUnselectColor="@color/color_7f7f7f"
+        android:layout_marginRight="@dimen/dp20"
+        android:layout_marginLeft="@dimen/dp20"
+        app:tl_divider_color="@color/colorPrimary"
+        app:tl_bar_color="#ffffff"
+        app:tl_indicator_color="@color/color_dbe3f1"
+        app:tl_bar_stroke_width="@dimen/dp0.5"
+        app:tl_divider_width="@dimen/dp0.5"
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/fragmentcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/segmenttablayout"
+
+         />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/dp20"
+            android:layout_marginTop="@dimen/dp10"
+            android:gravity="center"
+            android:id="@+id/share"
+            >
+
+            <ImageView
+
+                android:layout_width="@dimen/dp18"
+                android:layout_height="@dimen/dp18"
+                android:src="@drawable/share_sel"
+                />
+
+            <TextView
+                android:id="@+id/comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_share"
+                android:textSize="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp1"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <bitchat.android.com.bitstore.widget.ProgressButton
+                android:id="@+id/download"
+                android:layout_width="@dimen/dp220"
+                android:layout_height="@dimen/dp32"
+                android:textColor="@color/colorPrimary"
+                android:padding="@dimen/dp5"
+                android:textSize="@dimen/dp13"
+                app:cornerRadius="20dp"
+                android:text="@string/str_install"
+                app:progressBackColor="@color/white"
+                app:progressColor="@color/color_C2DCF1"
+                app:buttonColor="@color/color_ededed"
+                android:layout_centerInParent="true"
+                android:stateListAnimator="@null"
+        />
+
+
+
+        <LinearLayout
+            android:id="@+id/buttom_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp15"
+            android:layout_marginTop="@dimen/dp5"
+            android:gravity="center_horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="@dimen/dp18"
+                android:layout_height="@dimen/dp18"
+                android:src="@drawable/coment"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_comment"
+                android:textSize="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp1"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

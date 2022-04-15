@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/main_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+>
+
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+
+        <LinearLayout
+                android:id="@+id/ll_sc_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp35"
+                    android:layout_marginLeft="@dimen/dp15"
+                    android:layout_marginRight="@dimen/dp15"
+                    android:layout_marginTop="@dimen/dp10"
+                    android:drawableLeft="@mipmap/ic_search_top"
+                    android:drawablePadding="@dimen/dp5"
+                    android:background="@drawable/shap_search_bg"
+                    android:hint="@string/str_big_update"
+                    android:textSize="@dimen/dp15"
+                    android:textColor="@color/black0"
+                    android:padding="@dimen/dp7"
+                    android:id="@+id/search"
+
+            />
+
+
+
+            <com.scwang.smartrefresh.layout.SmartRefreshLayout
+                    android:id="@+id/smartrefreshlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:layout_marginTop="@dimen/dp15"
+                    app:srlEnableLoadMore="false"
+                    app:srlEnableRefresh="false"
+                    app:srlDisableContentWhenLoading="true"
+                    app:srlEnableAutoLoadMore="true"
+
+            >
+
+            <bitchat.android.com.bitstore.view.recycleview.MyRecyclerView
+                    android:id="@+id/applist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+
+            />
+
+            </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>

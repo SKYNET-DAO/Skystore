@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="main_channels">
+        <item>184.105.242.151:8000</item>
+        <item>43.249.31.62:8000</item>
+    </string-array>
+
+</resources>

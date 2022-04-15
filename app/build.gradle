@@ -1,0 +1,102 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "bitchat.android.com.bitstore"
+        minSdkVersion 23
+        targetSdkVersion 28
+        versionCode 121
+        versionName "1.2.1"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+}
+
+
+    signingConfigs {
+        sign {
+            //TODO 发布版必须将项目内的keystore文件删除并将值改为外部引用值
+            /**
+             *  storeFile file('引用外部资源文件')
+             *  storePassword '读取外部文件值'
+             *  keyAlias '读取外部文件值'
+             *  keyPassword '读取外部文件值'
+             * */
+            storeFile file("bitstore.jks")
+            storePassword "123456"
+            keyAlias "key0"
+            keyPassword "123456"
+            v2SigningEnabled false
+        }
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+
+
+
+
+    buildTypes {//调用签名的方法
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.sign
+        }
+
+        release {
+            //  minifyEnabled true
+            signingConfig signingConfigs.sign
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //压缩对齐生成的apk包
+            // zipAlignEnabled true
+            //启用multidex的支持
+            // shrinkResources true
+            //设置release版本只包含armeabi-v7a的so包
+
+        }
+    }
+
+
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation project(path: ':wallet')
+    implementation project(path: ':imagepicker')
+    implementation(name:'bannerview-release', ext:'aar')
+
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0'
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0'
+    implementation 'com.blankj:utilcode:1.9.12'
+    implementation 'me.shaohui:bottomdialog:1.1.9'
+
+}

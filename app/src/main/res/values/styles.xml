@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/gray1</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:labelTextSize">@dimen/dp10</item>
+
+        <item name="colorBackgroundFloating">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+
+
+    <declare-styleable name="ProgressButton">
+        <attr name="progressColor" />
+        <attr name="progressBackColor" />
+        <attr name="buttonColor" format="color" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="progress" />
+        <attr name="minProgress" />
+        <attr name="maxProgress" />
+        <attr name="progressMargin" format="dimension" />
+    </declare-styleable>
+
+    <style name="detail_card_title">
+        <item name="android:textSize">@dimen/dp15</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="detail_card_introduce_content">
+        <item name="android:textSize">@dimen/dp13</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+        <item name="android:alpha">0.5</item>
+    </style>
+
+    <style name="AppTheme.Appbar">
+        <item name="actionMenuTextColor">@color/black</item>
+        <item name="overlapAnchor">false</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+
+</resources>
